@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .links{
     display: flex;
@@ -36,8 +37,33 @@ body{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: url("assets\joan-gamell-ZS67i1HLllo.jpg.jpg");
+    background-image: url("/assets/joan-gamell-ZS67i1HLllo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
  }
+
+ .welcome-wrapper{
+     width: 100%;
+     height: 100%;
+     background:rgba(0, 0, 0, 0.8);
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+ }
+ .welcome-wrapper h1{
+     margin-bottom: 0;
+ }
+ .welcome-wrapper a{
+     text-decoration: none;
+     cursor: pointer;
+     color:rgb(231, 116, 39);
+     font-size: 1.2em;
+ }
+
  h2{
      padding-left: 20px;
  }
