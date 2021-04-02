@@ -70,6 +70,7 @@ body{
 .projects{
     margin:0 auto;
     /* border:1px solid red; */
+    background-color: rgb(255, 255, 255);
 }
  .project{
      display:flex;
@@ -92,6 +93,39 @@ body{
  .project .project-tile p{
      text-align: center;
  }
+
+ #profile-link {
+     text-align: center;
+     width: 10%;
+     background-color: crimson;
+     display: block;
+     padding: 1rem 2rem;
+     border-radius: 22px;
+     color: rgb(255, 255, 255);
+     font-weight: 600;
+     margin: 10px auto;
+    }
+#Contact {
+    background-color: rgb(95, 95, 95);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+#contact-title {
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+#github-link img {
+    width: 50px;
+    height: auto;
+}
+
+#contact-links a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
 
 /* 
 @media (max-width:600px){
