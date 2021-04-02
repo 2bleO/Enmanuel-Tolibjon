@@ -19,7 +19,7 @@ body{
     height: 2em;
     color:rgb(62, 151, 96);
 }
-#nav {
+#navbar {
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -42,4 +42,13 @@ body{
 
 @media (max-width:600px){
 
+}
+#projects {
+    background-color: rgb(26, 6, 80);
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: blanchedalmond;
 }
