@@ -27,7 +27,16 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    background:#fff;
     
+    
+}
+#navbar a{
+    color:rgb(231, 116, 39);
+    font-weight: 700;
+}
+#navbar a:hover{
+    color: rgb(99, 96, 96);
 }
 
 #welcome-section {
@@ -35,13 +44,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url("/assets/joan-gamell-ZS67i1HLllo.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color:#fff;
+    
  }
 
  .welcome-wrapper{
@@ -77,6 +87,9 @@ body{
      justify-content: space-around;
      flex-wrap: wrap;
  }
+ .project:hover{
+     /* transform: scale(1.1); */
+ }
 
  .project .project-tile{
      flex:0 1 350px;
@@ -104,10 +117,10 @@ body{
      background-color: crimson;
      display: block;
      padding: 1rem 2rem;
-     border-radius: 22px;
+     border-radius: 5px;
      color: rgb(255, 255, 255);
      font-weight: 600;
-     margin: 10px auto;
+     margin: 20px auto;
     }
 #Contact {
     background-color: rgb(95, 95, 95);
@@ -146,17 +159,28 @@ body{
 }
 #contact-links img {
     margin-right: 10px;
+}
 
-/* 
 @media (max-width:600px){
+    #welcome-section{
+        /* height:100vh;
+        min-width: 100vw; */
+    }
 
-}
-#projects {
-    background-color: rgb(26, 6, 80);
+    .projects img {
+        width: 306px;
+     }
+
+     #welcome-section{
+         text-align: center;
+     }
+
+     #profile-link{
+        width:45%;
+     }
+     #contact-links a {
+         font-size: 1em;
+     }
 }
 
-h2 {
-    text-align: center;
-    font-size: 40px;
-    color: blanchedalmond;
-} */
+
