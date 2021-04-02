@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.links{
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+.links a{
+    text-decoration: none;
+    height: 2em;
+    padding:0.5em 1em;
+}
+
+.links a:hover{
+    text-decoration: none;
+    height: 2em;
+    color:rgb(62, 151, 96);
+}
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: }
+
+
+
+@media (max-width:600px){
+
+}
