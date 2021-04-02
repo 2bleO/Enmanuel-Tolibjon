@@ -94,6 +94,10 @@ body{
      text-align: center;
  }
 
+ .projects img {
+    width: 626px;
+ }
+
  #profile-link {
      text-align: center;
      width: 10%;
@@ -118,7 +122,7 @@ body{
 }
 
 #github-link img {
-    width: 50px;
+    width: 35px;
     height: auto;
 }
  #contact-links{
@@ -131,11 +135,17 @@ body{
     color: rgb(231, 116, 39);
     font-weight: 600;
     margin:15px 30px;
+    padding: 5px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
 }
 #contact-links a:hover{
     color:#fff;
 }
+#contact-links img {
+    margin-right: 10px;
 
 /* 
 @media (max-width:600px){
